@@ -2,6 +2,8 @@
 #include <stdio.h>
 #include <math.h>
 
+
+// Limit of 1 - (1 / 2^2) + (1 / 2^4) - (1 / 2^6) + ...
 int main() {
 
     double sum = 1.0;
@@ -10,14 +12,10 @@ int main() {
     for (i = 1; i < 20; i = i + 1) {
         double exp = 2 * i;
 
-        if (i % 2 == 0) {
-            sum = sum + (1.0 / pow(2.0, exp));
-        } else {
-            sum = sum - (1.0 / pow(2.0, exp));
-        }
+        sum = sum - ( (pow(-1, i+1))*(1.0 / pow(2.0, exp)) );
 
         printf("The sum is %f\n", sum);
 
-
+    }
 }
 
