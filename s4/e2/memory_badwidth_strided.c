@@ -32,7 +32,7 @@ int main(int argc,char *argv[]) {
     printf("Time: %lfms\n", 1000*total);
     int n_bytes = 2 * N * sizeof *A;
     printf("Bytes per sec: %3e\n", n_bytes/total);
-    printf("Flops: %3e\n", N/total);
+    printf("Flops (Stride): %3e\n", N/total);
 
     free(A);
     free(B);
