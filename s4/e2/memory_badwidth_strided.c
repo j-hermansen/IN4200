@@ -2,6 +2,14 @@
 #include <stdlib.h>
 #include <time.h>
 
+
+/**
+ * main method doing memory_bandwidth calculations
+ *
+ * @param argc
+ * @param argv
+ * @return
+ */
 int main(int argc,char *argv[]) {
 
     if (argc != 3) {
