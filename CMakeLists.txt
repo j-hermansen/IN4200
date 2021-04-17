@@ -2,7 +2,6 @@
 project(in4200 C)
 
 set(CMAKE_C_STANDARD 11)
-target_link_libraries(alfa_1 m)
 
 #add_executable(
 #        in4200
@@ -18,3 +17,5 @@ target_link_libraries(alfa_1 m)
 add_executable(in4200_s1e1 s1/e1/verify_limit.c)
 add_executable(in4200_s4e1 s4/e1/memory_bandwidth.c)
 add_executable(in4200_hpc_1_1_integrate HPC_BOOK/chap1/p1/integrate.c)
+
+target_link_libraries(in4200_s1e1 m)
