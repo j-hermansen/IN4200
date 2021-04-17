@@ -2,9 +2,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int size, i;
-
-
 int getLargestNumber(int arr[], int size) {
     int max = arr[0];
     int i;
@@ -32,10 +29,10 @@ int getSmallestNumber(int arr[], int size) {
 }
 
 int main() {
-    size = 10;
+    int size = 10;
     int arr[size];
 
-    for(i = 0; i < size; i++) {
+    for(int i = 0; i < size; i++) {
         arr[i] = rand() % 101; // random number from 0 to 100
         printf("%d, ", arr[i]);
     }

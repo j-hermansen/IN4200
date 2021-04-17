@@ -47,15 +47,5 @@ int main() {
 
     return 0;
 
-    // 3. Save first temperature and time measured
-
-    // 4. loop through every row and check if:
-            // 4.1 current is larger than max-variable (true? -> save)
-            // 4.2 current is smaller than min-variable (true? -> save)
-
-    // 5. close file
-
-    // 6. print values
-
 }
 
