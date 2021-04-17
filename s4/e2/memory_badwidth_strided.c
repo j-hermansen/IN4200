@@ -9,9 +9,6 @@ int main(int argc,char *argv[]) {
         return EXIT_FAILURE;
     }
 
-    printf("argc: %d\n", argc);
-    printf("argv[0]: %s\nargv[1]: %s\n\n", argv[0], argv[1]);
-
     int N = atoi(argv[1]);
     int stride = atoi(argv[2]);
 
