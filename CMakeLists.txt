@@ -2,6 +2,7 @@
 project(in4200 C)
 
 set(CMAKE_C_STANDARD 11)
+target_link_libraries(alfa_1 m)
 
 #add_executable(
 #        in4200
