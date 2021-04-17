@@ -13,7 +13,6 @@ add_executable(
         s2/e2/copy_array.c
         s2/e3/3d_numerical_calculation.c
         s2/e2/copy_array_2.c
-        s2/e3/solution_e3_e4.c
         s4/e2/memory_badwidth_strided.c)
 add_executable(in4200_s1e1 s1/e1/verify_limit.c)
 add_executable(in4200_s4e1 s4/e1/memory_bandwidth.c)
